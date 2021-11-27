@@ -1,0 +1,60 @@
+html{
+  font-size:62.5%;
+}
+
+*,
+*::before,
+*::after{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  background: url(christmas.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:100vh;
+
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-evenly;
+}
+
+.timer{
+  display:flex;
+}
+
+h1{
+  font-size:4rem;
+  color:#333;
+  text-shadow: 1px 1px 2px 3px #000;
+}
+
+.box{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: space-between;
+
+  padding:2rem 3rem;
+  background: rgba(255,255,255,.5);
+  font-size:1.8rem;
+  border-radius: 7px;
+  width: 15rem;
+}
+
+.box span:not(:last-child){
+  margin-bottom:.4rem;
+}
+
+.box:not(:last-child){
+  margin-right:2rem;
+}
+
+#curAge{
+  padding:3rem 4rem;
+}
