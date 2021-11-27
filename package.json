@@ -1,7 +1,7 @@
 {
   "name": "christmas-eve-countdow",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "https://github.com/rohit063kr/christmas-countdown.git",
   "author": "rohit",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
-  "devDependencies": {  
+  "devDependencies": {
     "parcel": "^2.0.1"
   }
 }
